@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px;
+} 
+
+.heading {
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    color: powderblue;
+}
+
+p {
+    font-family: 'Times New Roman', serif;
+    font-size: 35px;
+    color: white;
+}
+
+input {
+    height: 25px;
+    width: 50%;
+    border-radius: 5px;
+    font-family: 'Special Elite', serif;
+}
+
+input:focus {
+    border: 3px solid rgba(65, 25, 255);
+    outline: none;
+}
+
+.add {
+    background-color: powderblue;
+    font-family: 'Special Elite', serif;
+    font-size: 20px;
+    color: black;
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-family: 'Special Elite', serif;
+    font-size: 35px;
+    color: white;
+}
+
+.delete {
+    background-color: powderblue;
+    font-size: 10px;
+    color: black;
+}
